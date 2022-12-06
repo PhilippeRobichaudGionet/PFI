@@ -1,0 +1,68 @@
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Condensed&display=swap');
+
+.menu {
+    background-color: #d64161;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    top: 0;
+    overflow: hidden;
+}
+
+.button {
+    color: white;
+    font-size: 1vw;
+    width: max-content;
+    height: max-content;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+}
+.active{
+    color:yellow;
+}
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.button:hover {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border: black solid 2px;
+    border-radius: 7px;
+}
+
+@media screen and (min-width: 800px) {
+    .icone {
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .TitreBoutton {
+        display: none;
+    }
+    .icone{
+        font-size: xx-large;
+    }
+}

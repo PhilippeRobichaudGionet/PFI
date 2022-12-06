@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com crossorigin');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"');
+body{
+    background-color: rgba(77, 52, 158, 0.847);
+}
+.main{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 100px;
+    border: 5px solid black;
+    border-radius: 10px;
+    width:max-content;
+    text-align: center;
+    padding: 10px;
+}
+.Titre{
+    margin: 0 auto 0 auto;
+    width: 30%;
+}
+.TextGauche{
+    font-weight: 600;
+    margin: 30px auto 0 auto;
+    width: 30%;
+}
+.Youtube{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+a{
+    color:rgb(85, 22, 137);
+}

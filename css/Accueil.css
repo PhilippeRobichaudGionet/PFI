@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+    background-color:rgb(37, 29, 108);
+}
+.main{
+    margin-top:100px;
+}
+.GrosTitre {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'Orbitron', sans-serif;
+    color:aqua;
+}
+.Présentation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(119, 133, 42);
+    
+}
+a{
+    color:aqua;
+}

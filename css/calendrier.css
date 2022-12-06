@@ -1,0 +1,70 @@
+/* todo */
+.title{
+    font-size:xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.monthTitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.holiday{
+    background-color: orange;
+    border-radius: 5px
+}
+.holidayGaming{
+    background-color: rgb(38, 159, 215);
+    border-radius: 5px;
+}
+.content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.month {
+    border: 3px solid rgb(76, 71, 71);
+    border-radius: 5px;
+    width:max-content;
+    padding: 0px 20px 20px 20px;
+    margin-top: 10px;
+
+}
+.daysOfWeek{
+    display:flex;
+    gap:10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.daysContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap:5px;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .months{
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .months{
+        display:grid;
+        grid-template-columns: auto auto ;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .months{
+        display:grid;
+        grid-template-columns: auto ;
+        justify-content: center;
+        gap: 5px;
+    }
+}

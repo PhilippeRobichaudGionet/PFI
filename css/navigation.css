@@ -1,0 +1,69 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menus {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    background-image: linear-gradient(180deg, lightgray, rgb(75, 75, 75));
+    color: white;
+    height: 50px;
+    width: calc(min(100%, 1400px));
+    border-radius: 60px;
+}
+
+.icon {
+    font-size:28px !important;
+    cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+}
+
+.menuText {
+    font-size: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 35px auto;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu:hover,
+.menu:hover .icon {
+    color: aqua;
+    -webkit-text-fill-color: aqua;
+}
+
+.menu:active,
+.menu:active .icon {
+    color: dodgerblue;
+    -webkit-text-fill-color: dodgerblue;
+}
+
+.selected,
+.selected .icon {
+    color: green;
+    -webkit-text-fill-color: gold;
+}
+
+.menuBuffer {
+    height: 50px;
+}
+
+@media screen and (min-width:800px) {
+    .menuText {
+        display: block;
+    }
+}

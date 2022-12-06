@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body{
+    background-color:#2f2fa2;
+}
+.main{
+    font-family: 'Orbitron', sans-serif;
+    margin-top:100px;
+    color:azure;
+}
+.Titre{
+    margin: 0 auto 30px auto;
+    width:50%;
+}
+.GrosGenre{
+    font-size: x-large;
+}
+.SousGenre{
+    margin-left: 20px;
+}
+.liste{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+.TextAudio{
+    margin: 30px auto 0px auto;
+    width: 50%;
+}
+.audioMusic{
+    margin: 30px auto 0px auto;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
