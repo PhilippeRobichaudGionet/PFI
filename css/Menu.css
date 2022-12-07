@@ -13,7 +13,7 @@
     gap: 10px;
     top: 0;
     overflow: hidden;
-}
+}               
 
 .button {
     color: white;
@@ -24,6 +24,9 @@
     padding: 5px;
     text-align: center;
     display: flex;
+}
+button:link{
+    color:red;
 }
 .active{
     color:yellow;
@@ -38,6 +41,7 @@ a:visited {
 
 a:active {
     text-decoration: none;
+    color:red;
 }
 
 a:link {
