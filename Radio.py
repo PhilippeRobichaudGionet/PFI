@@ -20,8 +20,5 @@ class radio:
         self.ser.write(b'lep\n')
         time.sleep(0.1)
         data = self.ser.readline().decode('utf-8')
-        if data.startswith("POS"):
-            _, x, y, z, _ = data.split(',')
-            return float(x), float(y), float(z) 
-        else:
-            return None
+        _, x, y, z, _ = data.split(',')
+        return float(x), float(y), float(z) 
