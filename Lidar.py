@@ -41,3 +41,14 @@ class Lidar:
                 cv2.circle(image, (x, y), 2, (0, 255, 0), -1)
 
         return image
+    
+    def WarningObstacle(self, lidar_data):
+        warn = False
+
+        for i in range(180):
+            distance = lidar_data.get(i, 0)
+
+            if distance < 0 or distance > 1200:
+                warn = True
+        
+        return warn
